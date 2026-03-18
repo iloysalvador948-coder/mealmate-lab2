@@ -5,7 +5,27 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
-    "android": { "package": "com.student.mealmate" },
-    "ios": { "supportsTablet": true, "bundleIdentifier": "com.student.mealmate" }
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "splash": {
+      "backgroundColor": "#FF6B35",
+      "resizeMode": "contain"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.angeloyy.mealmate"
+    },
+    "android": {
+      "package": "com.angeloyy.mealmate",
+      "adaptiveIcon": {
+        "backgroundColor": "#FF6B35"
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "897126fd-a92d-434f-b757-e8396f572729"
+      }
+    }
   }
 }

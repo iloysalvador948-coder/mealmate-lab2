@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "MealMate",
+    "slug": "mealmate",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "android": { "package": "com.student.mealmate" },
+    "ios": { "supportsTablet": true, "bundleIdentifier": "com.student.mealmate" }
+  }
+}
